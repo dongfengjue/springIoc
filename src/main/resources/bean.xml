@@ -1,0 +1,6 @@
+<beans>
+    <bean id="a" class="AImpl"/>
+    <bean id="b" class="BImpl">
+        <property name="a" bean = "a" />
+    </bean>
+</beans>
